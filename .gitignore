@@ -1,0 +1,5 @@
+build/
+work/
+.android_keystore.jks
+*.apk
+!dist/今天吃什么_v1.2.apk

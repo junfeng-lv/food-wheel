@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.FoodWheel" parent="@android:style/Theme.Material.Light.NoActionBar">
+    <item name="android:colorAccent">#E0452F</item>
+    <item name="android:windowLightStatusBar">false</item>
+    <item name="android:statusBarColor">#66000000</item>
+    <item name="android:navigationBarColor">#332018</item>
+    <item name="android:windowBackground">#FFF8EF</item>
+  </style>
+</resources>

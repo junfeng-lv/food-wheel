@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="cream">#FFF8EF</color>
+  <color name="paper">#FFFDF7</color>
+  <color name="tomato">#E0452F</color>
+  <color name="deepTomato">#B82D1D</color>
+  <color name="saffron">#F2A12C</color>
+  <color name="ink">#332018</color>
+  <color name="softInk">#6A4A3A</color>
+  <color name="mint">#E7F6EE</color>
+  <color name="warmWhite">#B3FFF8F0</color>
+  <color name="deepScrim">#66000000</color>
+</resources>
