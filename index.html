@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Choice Wheel</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="top-bar">
+      <div class="brand">
+        <div class="brand-icon"></div>
+        <h1>Choice Wheel</h1>
+      </div>
+
+      <button id="clearTopBtn" class="top-clear-btn" type="button">
+        Clear All
+      </button>
+    </header>
+
+    <section class="main-grid">
+      <div class="wheel-panel">
+        <div class="wheel-wrapper">
+          <div class="pointer"></div>
+
+          <canvas id="wheel" width="520" height="520"></canvas>
+
+          <button id="spinBtn" class="spin-center-btn" type="button">
+            SPIN
+          </button>
+        </div>
+
+        <div id="winnerBox" class="winner-box">
+          <p class="winner-label">Ready</p>
+          <h2 id="winnerText">Add entries and spin the wheel</h2>
+        </div>
+      </div>
+
+      <aside class="entries-panel">
+        <div class="entries-header">
+          <h2>Entries</h2>
+          <span id="entryCount" class="entry-count">0</span>
+        </div>
+
+        <textarea
+          id="optionsInput"
+          placeholder="Pizza&#10;Tacos&#10;Sushi&#10;Burgers&#10;Pasta"
+        ></textarea>
+
+        <p class="tip-text">
+          Tip: Enter one item per line.
+        </p>
+
+        <div class="side-buttons">
+          <button id="sampleBtn" class="secondary-btn" type="button">
+            Use Sample
+          </button>
+
+          <button id="shuffleBtn" class="secondary-btn" type="button">
+            Shuffle
+          </button>
+
+          <button id="clearBtn" class="danger-btn" type="button">
+            Clear
+          </button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="info-grid">
+      <article class="info-card">
+        <h2>🎯 How It Works</h2>
+
+        <div class="steps">
+          <div>
+            <span>1</span>
+            <p>Enter your choices.</p>
+          </div>
+
+          <div>
+            <span>2</span>
+            <p>Press the SPIN button.</p>
+          </div>
+
+          <div>
+            <span>3</span>
+            <p>Let the wheel pick a winner.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="info-card">
+        <h2>💡 Great For</h2>
+
+        <div class="tag-grid">
+          <span>🍕 What to eat</span>
+          <span>🏆 Giveaways</span>
+          <span>✈️ Travel ideas</span>
+          <span>📚 Classroom games</span>
+          <span>✅ Daily tasks</span>
+          <span>👥 Team choices</span>
+        </div>
+      </article>
+    </section>
+
+    <div id="confetti" class="confetti"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
